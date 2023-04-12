@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/favicon.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />  
+    <title>Thunder Games | Inicio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navClass fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./img/logo2.png" alt="Logo" width="80px"
+          /></a>
+          <button
+            class="navbar-toggler border border-white rounded-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list text-white fs-2"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link colorNav"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorNav" href="./html/Contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorNav" href="./html/Nosotros.html"
+                  >Sobre nosotros</a
+                >
+              </li>
+            </ul>
+            <div class="my-2 dbl">
+              <a
+                href="./html/IniciarSesion2.html"
+                class="colorNav me-3 margen at"
+                >Iniciar sesión</a
+              >
+              <a
+                href=""
+                class="colorNav me-3 at"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                >Registrarse</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content login text-white sombra">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5 text-white" id="exampleModalLabel">
+                Registrarse
+              </h2>
+              <button
+                type="button"
+                class="btn-close bg-white"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="user" class="form-label">Usuario</label>
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="bi bi-person-circle"></i
+                    ></span>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="user"
+                      required
+                      placeholder="Nombre de usuario"
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Correo electrónico</label
+                  >
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="bi bi-envelope"></i
+                    ></span>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      required
+                      placeholder="ejemplo@mail.com"
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Contraseña</label
+                  >
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="bi bi-key"></i
+                    ></span>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                      required
+                      placeholder="*************"
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Confirme su contraseña</label
+                  >
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="bi bi-key"></i
+                    ></span>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                      required
+                      placeholder="*************"
+                    />
+                  </div>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                    required
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Acepto los términos y condiciones</label
+                  >
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn botones text-white">
+                    Registrarse
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="fondo mrg">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a
+              href="./Compras/Guardianes-de-la-galaxia/guardianes.html"
+              target="_blank"
+            >
+              <img
+                src="img/juego-de-guardianes-de-la-galaxia_3840x2160_xtrafondos.com.jpg"
+                class="d-block w-100 bude"
+                alt="..."
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>50% de descuento</h5>
+              <p>
+                Solo disponible con tarjetas de crédito o transferencia bancaria
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="./Compras/Hogwarts Legacy/HL.html" target="_blank"
+              ><img
+                src="./img/harry potter.jpg"
+                class="d-block w-100 bude"
+                alt="..."
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Free to play</h5>
+              <p>Esta oferta termina el 03/04/2023</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/1273405.jpg" class="d-block w-100 bude" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lanzamiento muy pronto</h5>
+              <p>Lidera a Kratos junto a su hijo en su mitica aventura</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Primera columna principal -->
+          <div class="col-lg-9 col-md-8 col-sm-12">
+            <h4 class="text-white my-3 border-bottom centro">
+              Últimas tendencias de compra
+            </h4>
+            <div class="row mb-3">
+              <div
+                class="col-lg-4 col-md-6 col-sm-12 mt-3 d-flex justify-content-center"
+              >
+                <div class="card login w-75">
+                  <img
+                    src="./img/Metroid.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title text-white text-center">
+                      Metroid Prime Remastered
+                    </h5>
+                    <p class="text-white">
+                      Videojuego de acción - aventura en primera persona
+                    </p>
+                    <div class="d-flex justify-content-center">
+                      <a href="#" class="btn btn botones text-white">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 col-sm-12 mt-3 d-flex justify-content-center"
+              >
+                <div class="card login w-75">
+                  <img
+                    src="./img/harry potter.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title text-white text-center">Hogwarts Legacy</h5>
+                    <p class="text-white">
+                      Videojuego de mundo abierto basado en el universo de Harry
+                      Potter
+                    </p>
+                    <div class="d-flex justify-content-center">
+                      <a href="#" class="btn btn botones text-white">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 col-sm-12 mt-3 d-flex justify-content-center"
+              >
+                <div class="card login w-75">
+                  <img
+                    src="./img/juego-de-guardianes-de-la-galaxia_3840x2160_xtrafondos.com.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title text-white text-center">
+                      Marvel's Guardians of the Galaxy
+                    </h5>
+                    <p class="text-white">
+                      Súmergete en el nuevo juego de aventuras de Marvel
+                    </p>
+                    <div class="d-flex justify-content-center">
+                      <a href="#" class="btn btn botones text-white">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 col-sm-12 mt-3 d-flex justify-content-center"
+              >
+                <div class="card login w-75">
+                  <img
+                    src="./img/Legends of zelda.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title text-white text-center">
+                      Legend of Zelda: Breath of the Wild
+                    </h5>
+                    <p class="text-white">
+                      Entra en un mundo de aventuras, exploración y
+                      descubrimientos
+                    </p>
+                    <div class="d-flex justify-content-center">
+                      <a href="#" class="btn btn botones text-white">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 col-sm-12 mt-3 d-flex justify-content-center"
+              >
+                <div class="card login w-75">
+                  <img
+                    src="./img/spiderman.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title text-white text-center">
+                      Marvel's Spiderman
+                    </h5>
+                    <p class="text-white">
+                      Ocho años después de que se enfundase la máscara por primera vez, Peter Parker es todo un experto en la lucha contra el crimen
+                    </p>
+                    <div class="d-flex justify-content-center">
+                      <a href="#" class="btn btn botones text-white">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 col-sm-12 mt-3 d-flex justify-content-center"
+              >
+                <div class="card login w-75">
+                  <img
+                    src="./img/1273405.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title text-white text-center">
+                      God of War: Ragnarök
+                    </h5>
+                    <p class="text-white">
+                      Embárcate en un épico y cordial viaje mientras Kratos y Atreus luchan por aferrarse y soltar
+                    </p>
+                    <div class="d-flex justify-content-center">
+                      <a href="#" class="btn btn botones text-white">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <section class="d-flex justify-content-center mt-5">
+              <div aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link disabled login text-white" href="" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link bg-white text-dark" href="./index.html">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link login text-white" href="./html/Error404.html">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link login text-white" href="./html/Error404.html">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a
+                      class="page-link login text-white"
+                      href="./html/Error404.html"
+                      aria-label="Next"
+                    >
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+          <!-- Segunda columna principal -->
+          <div class="col-lg-3 col-md-4 col-sm-12 text-center">
+            <h4 class="text-white my-3 border-bottom centro">
+              Encontrá nuestros productos
+            </h4>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="d-flex justify-content-center mt-3">
+                  <form class="d-flex" role="search">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Buscador"
+                      aria-label="Search"
+                    />
+                    <button class="btn bbtn botones text-white" type="submit">
+                      Buscar
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="dropdown d-flex justify-content-center my-5">
+                  <button
+                    class="btn btn-outline-primary text-white dropdown-toggle w-50"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Categorías
+                  </button>
+                  <ul class="dropdown-menu login text-center w-50">
+                    <li>
+                      <a
+                        class="dropdown-item text-white bgDrop"
+                        href="./html/Aventura.html"
+                        >Aventura</a
+                      >
+                    </li>
+                    <li><hr class="text-white m-2" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item text-white bgDrop"
+                        href="./html/Terror.html"
+                        >Terror</a
+                      >
+                    </li>
+                    <li><hr class="text-white m-2" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item text-white bgDrop"
+                        href="./html/MundoAbierto.html"
+                        >Mundo abierto</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-12 publicidad">
+                <div class="my-5">
+                  <h4 class="text-white text-center border-bottom">
+                    Nuestros patrocinadores
+                  </h4>
+                  <section class="d-flex justify-content-center mt-5">
+                    <div
+                      id="carouselExampleAutoplaying"
+                      class="carousel slide w-75 mt-3"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner d-flex">
+                        <div class="carousel-item active text-center">
+                          <img
+                            src="./img/AMD-removebg-preview.png"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./img/razer-logo-png-transparent.png"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./img/Logitech-removebg-preview.png"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="py-3">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 col-sm-12 borde">
+            <div class="text-center mt-lg-2 mt-md-3 pb-sm-3">
+              <img src="../img/logo2.png" alt="Thunder Games" width="100" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 borde my-2">
+            <h4 class="text-white text-center">Horarios de atención</h4>
+            <ul class="text-white text-center">
+              <li>Lunes a Viernes: 08:00 a 16:00.</li>
+              <li>Sábados: 08:00 a 13:00.</li>
+              <li>Domingos y feriados el local se encuentra cerrado.</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+            <h4 class="text-white text-center">Buscanos en nuestras redes</h4>
+            <div class="redes">
+              <a href="./html/Error404.html"
+                ><img class="mx-1" src="./img/fb.png" alt="" width="50px"
+              /></a>
+              <a href="./html/Error404.html"
+                ><img class="mx-1" src="./img/tw.png" alt="" width="50px"
+              /></a>
+              <a href="./html/Error404.html"
+                ><img class="mx-1" src="./img/ig.png" alt="" width="50px"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

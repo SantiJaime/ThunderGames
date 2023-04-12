@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/favicon.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Thunder Games | Contacto</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navClass fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../img/logo2.png" alt="Logo" width="80px"
+          /></a>
+          <button
+            class="navbar-toggler border border-white rounded-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list text-white fs-2"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link colorNav"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorNav" href="./Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorNav" href="./Nosotros.html"
+                  >Sobre nosotros</a
+                >
+              </li>
+            </ul>
+            <div class="my-2 dbl">
+              <a href="./IniciarSesion2.html" class="colorNav me-3 margen at"
+                >Iniciar sesión</a
+              >
+              <a
+                href=""
+                class="colorNav me-3 at"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                >Registrarse</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content login text-white sombra">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5 text-white" id="exampleModalLabel">
+                Registrarse
+              </h2>
+              <button
+                type="button"
+                class="btn-close bg-white"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="user" class="form-label">Usuario</label>
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="bi bi-person-circle"></i
+                    ></span>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="user"
+                      required
+                      placeholder="Nombre de usuario"
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Correo electrónico</label
+                  >
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="bi bi-envelope"></i
+                    ></span>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      required
+                      placeholder="ejemplo@mail.com"
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Contraseña</label
+                  >
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="bi bi-key"></i
+                    ></span>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                      required
+                      placeholder="*************"
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Confirme su contraseña</label
+                  >
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="bi bi-key"></i
+                    ></span>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                      required
+                      placeholder="*************"
+                    />
+                  </div>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                    required
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Acepto los términos y condiciones</label
+                  >
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn botones text-white">
+                    Registrarse
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="fondo mrg pt-5">
+      <div class="container">
+        <div class="row text-white">
+          <div
+            class="col-lg-6 col-md-6 col-sm-12 login rounded-4 sombra1 margen d-flex"
+          >
+            <form
+              action=""
+              class="d-flex flex-column justify-content-around w-100"
+            >
+              <h5 class="mt-4">Envíenos su mensaje</h5>
+              <hr class="text-white"/>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Correo electrónico</label
+                >
+                <div class="input-group">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="bi bi-envelope"></i
+                  ></span>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    required
+                    placeholder="ejemplo@mail.com"
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="user" class="form-label">Usuario</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="bi bi-person-circle"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="user"
+                    required
+                    placeholder="Nombre de usuario"
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="consulta" class="form-label"
+                  >Razón de la consulta</label
+                >
+                <div class="input-group">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="bi bi-pencil-fill"></i>
+                  </span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="consulta"
+                    required
+                    placeholder="Ej: Reembolso, Precio..."
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label"
+                  >Descripción detallada (opcional)</label
+                >
+                <div class="input-group">
+                  <span class="input-group-text"
+                    ><i class="bi bi-chat-dots"></i
+                  ></span>
+                  <textarea
+                    class="form-control"
+                    aria-label="With textarea"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="text-center mb-3">
+                <button
+                  class="btn botones text-white text-white"
+                  type="submit"
+                >
+                  Enviar consulta
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.5624023753317!2d-65.20463934884005!3d-26.822058895808166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c181d0bbe09%3A0xb5a07880242816ae!2sPlayback%20Cyber%20Gaming!5e0!3m2!1sen!2sar!4v1680803275651!5m2!1sen!2sar"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="rounded-4 img-fluid w-100 h-100 sombra1"
+            ></iframe>
+          </div>
+        </div>
+        <hr class="text-white mt-4" />
+        <h4 class="text-white text-center">Buscanos en nuestra App</h4>
+        <div class="d-flex justify-content-center mb-3">
+          <a href="./Error404.html" class="btn btn-outline-success mx-2"
+            ><i class="bi bi-android2"></i> Android</a
+          >
+          <a href="./Error404.html" class="btn btn btn-outline-light mx-2"
+            ><i class="bi bi-apple"></i> iOS</a
+          >
+        </div>
+      </div>
+    </main>
+    <footer class="py-3">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 col-sm-12 borde">
+            <div class="text-center mt-lg-2 mt-md-3 pb-sm-3">
+              <img src="../img/logo2.png" alt="Thunder Games" width="100px" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 borde my-2">
+            <h4 class="text-white text-center">Horarios de atención</h4>
+            <ul class="text-white text-center">
+              <li>Lunes a Viernes: 08:00 a 16:00.</li>
+              <li>Sábados: 08:00 a 13:00.</li>
+              <li>Domingos y feriados el local se encuentra cerrado.</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+            <h4 class="text-white text-center">Buscanos en nuestras redes</h4>
+            <div class="redes">
+              <a href="./Error404.html"
+                ><img class="mx-1" src="../img/fb.png" alt="" width="50px"
+              /></a>
+              <a href="./Error404.html"
+                ><img class="mx-1" src="../img/tw.png" alt="" width="50px"
+              /></a>
+              <a href="./Error404.html"
+                ><img class="mx-1" src="../img/ig.png" alt="" width="50px"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

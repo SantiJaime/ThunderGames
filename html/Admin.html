@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/favicon.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Thunder Games | Vista de administrador</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navClass fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../img/logo2.png" alt="Logo" width="80px"
+          /></a>
+          <button
+            class="navbar-toggler border border-white rounded-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list text-white fs-2"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link colorNav"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorNav" href="./Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorNav" href="./Nosotros.html"
+                  >Sobre nosotros</a
+                >
+              </li>
+            </ul>
+            <div class="my-2 dbl">
+              <a href="../index.html" class="colorNav me-3 margen at"
+                ><i class="bi bi-arrow-right fs-4"></i><i class="bi bi-door-open fs-2"></i></a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="mrg">
+      <div class="container mt-3">
+        <div class="d-flex justify-content-between">
+          <h4 class="text-white">Lista de productos</h4>
+          <button
+            type="button"
+            class="btn botones text-white"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Agregar producto
+          </button>
+        </div>
+        <hr class="text-white" />
+        <div class="table-responsive">
+          <table class="table text-white table-bordered border-secondary">
+            <thead>
+              <tr>
+                <th scope="col" class="text-center">#</th>
+                <th scope="col" class="text-center">Videojuego</th>
+                <th scope="col" class="text-center">Categoría</th>
+                <th scope="col" class="text-center">Plataforma</th>
+                <th scope="col" class="text-center">Panel</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Metroid Prime Remastered</td>
+                <td>Aventura</td>
+                <td>Nintendo Switch</td>
+                <td>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <a
+                      href="./Error404.html"
+                      class="btn botones text-white mx-1"
+                      >Editar</a
+                    >
+                    <a
+                      href="./Error404.html"
+                      class="btn btn-outline-danger text-white mx-1"
+                      >Borrar</a
+                    >
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Hogwarts Legacy</td>
+                <td>Mundo abierto</td>
+                <td>
+                  PC - PS4 - PS5 - Xbox One - Xbox Series S|X - Nintendo Switch
+                </td>
+                <td>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <a
+                      href="./Error404.html"
+                      class="btn botones text-white mx-1"
+                      >Editar</a
+                    >
+                    <a
+                      href="./Error404.html"
+                      class="btn btn-outline-danger text-white mx-1"
+                      >Borrar</a
+                    >
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Marvel's Guardians of the Galaxy</td>
+                <td>Aventura</td>
+                <td>
+                  PC - PS4 - PS5 - Xbox One - Xbox Series S|X - Nintendo Switch
+                </td>
+                <td>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <a
+                      href="./Error404.html"
+                      class="btn botones text-white mx-1"
+                      >Editar</a
+                    >
+                    <a
+                      href="./Error404.html"
+                      class="btn btn-outline-danger text-white mx-1"
+                      >Borrar</a
+                    >
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Legend of Zelda: Breath of the Wild</td>
+                <td>Aventura</td>
+                <td>Nintendo Switch</td>
+                <td>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <a
+                      href="./Error404.html"
+                      class="btn botones text-white mx-1"
+                      >Editar</a
+                    >
+                    <a
+                      href="./Error404.html"
+                      class="btn btn-outline-danger text-white mx-1"
+                      >Borrar</a
+                    >
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>God of War: Ragnarök</td>
+                <td>Mundo abierto</td>
+                <td>PS4 - PS5</td>
+                <td>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <a
+                      href="./Error404.html"
+                      class="btn botones text-white mx-1"
+                      >Editar</a
+                    >
+                    <a
+                      href="./Error404.html"
+                      class="btn btn-outline-danger text-white mx-1"
+                      >Borrar</a
+                    >
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Marvel's Spiderman</td>
+                <td>Mundo abierto</td>
+                <td>PC - PS4 - PS5</td>
+                <td>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <a
+                      href="./Error404.html"
+                      class="btn botones text-white mx-1"
+                      >Editar</a
+                    >
+                    <a
+                      href="./Error404.html"
+                      class="btn btn-outline-danger text-white mx-1"
+                      >Borrar</a
+                    >
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>Outlast</td>
+                <td>Terror</td>
+                <td>PC - PS4 - Xbox One - Nintendo Switch</td>
+                <td>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <a
+                      href="./Error404.html"
+                      class="btn botones text-white mx-1"
+                      >Editar</a
+                    >
+                    <a
+                      href="./Error404.html"
+                      class="btn btn-outline-danger text-white mx-1"
+                      >Borrar</a
+                    >
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Alien: Isolation</td>
+                <td>Terror</td>
+                <td>PC - PS3 - PS4 - Xbox 360 - Xbox One - Nintendo Switch</td>
+                <td>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <a
+                      href="./Error404.html"
+                      class="btn botones text-white mx-1"
+                      >Editar</a
+                    >
+                    <a
+                      href="./Error404.html"
+                      class="btn btn-outline-danger text-white mx-1"
+                      >Borrar</a
+                    >
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>Assassin's Creed</td>
+                <td>Mundo abierto</td>
+                <td>PC - PS3 - Xbox 360</td>
+                <td>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <a
+                      href="./Error404.html"
+                      class="btn botones text-white mx-1"
+                      >Editar</a
+                    >
+                    <a
+                      href="./Error404.html"
+                      class="btn btn-outline-danger text-white mx-1"
+                      >Borrar</a
+                    >
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>Assassin's Creed Valhalla</td>
+                <td>Mundo abierto</td>
+                <td>PC - PS4 - PS5 - Xbox One - Xbox Series S|X</td>
+                <td>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <a
+                      href="./Error404.html"
+                      class="btn botones text-white mx-1"
+                      >Editar</a
+                    >
+                    <a
+                      href="./Error404.html"
+                      class="btn btn-outline-danger text-white mx-1"
+                      >Borrar</a
+                    >
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-responsive">
+          <h4 class="text-white">Usuarios registrados</h4>
+          <hr class="text-white" />
+          <table class="table text-white table-bordered border-secondary">
+            <thead>
+              <tr>
+                <th scope="col" class="text-center">#</th>
+                <th scope="col" class="text-center">Nombre de usuario</th>
+                <th scope="col" class="text-center">Correo electrónico</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-center">1</th>
+                <td>santijaime18</td>
+                <td>sjaime@hotmail.com.ar</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-center">2</th>
+                <td>leonelledesma1</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-center">3</th>
+                <td>sofifernandez92</td>
+                <td>sofifernandez92@hotmail.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content login sombra text-white">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Agregar un producto
+              </h1>
+              <button
+                type="button"
+                class="btn-close bg-white"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="juego" class="form-label">Videojuego</label>
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="bi bi-controller"></i
+                    ></span>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="juego"
+                      required
+                      placeholder="Nombre del juego"
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="categoria" class="form-label">Categoría</label>
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="bi bi-tag-fill"></i
+                    ></span>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="categoria"
+                      required
+                      placeholder="Mundo abierto | Aventura | Terror"
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="plataforma" class="form-label">Plataforma</label>
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"
+                      ><i class="bi bi-display"></i
+                    ></span>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="plataforma"
+                      required
+                      placeholder="PC | PS... | Xbox ... | Nintendo ..."
+                    />
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn botones text-white">
+                    Agregar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img src="../img/spiderman.jpg" alt=""> -->
+    </main>
+    <footer class="py-3">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 col-sm-12 borde">
+            <div class="text-center mt-lg-2 mt-md-3 pb-sm-3">
+              <img src="../img/logo2.png" alt="Thunder Games" width="100px" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 borde my-2">
+            <h4 class="text-white text-center">Horarios de atención</h4>
+            <ul class="text-white text-center">
+              <li>Lunes a Viernes: 08:00 a 16:00.</li>
+              <li>Sábados: 08:00 a 13:00.</li>
+              <li>Domingos y feriados el local se encuentra cerrado.</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+            <h4 class="text-white text-center">Buscanos en nuestras redes</h4>
+            <div class="redes">
+              <a href="./Error404.html"
+                ><img class="mx-1" src="../img/fb.png" alt="" width="50px"
+              /></a>
+              <a href="./Error404.html"
+                ><img class="mx-1" src="../img/tw.png" alt="" width="50px"
+              /></a>
+              <a href="./Error404.html"
+                ><img class="mx-1" src="../img/ig.png" alt="" width="50px"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
