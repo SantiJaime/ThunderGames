@@ -105,6 +105,16 @@ ul {
 .botones:hover{
   background-color: rgb(140, 0, 255);
 }
+.comentarios {
+  background-color: #4b00d9;
+  background-image: linear-gradient(
+    180deg,
+    #4b00d9 0%,
+    #48009b 50%,
+    #36005c 100%
+  );
+  border: 2px solid black;
+}
 @media (max-width: 991px) {
   .dbl {
     display: flex;
