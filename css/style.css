@@ -130,18 +130,18 @@ ul {
     align-items: center;
   }
 }
-@media (min-width: 300px) and (max-width: 767px) {
+@media (max-width: 767px) {
   footer {
     padding-bottom: 20px;
   }
   .borde {
-    border-bottom: 2px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
   }
   .publicidad {
     display: none;
   }
 }
-@media (min-width: 300px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .carr {
     height: 50%;
   }
